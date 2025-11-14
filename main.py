@@ -1,5 +1,4 @@
 def addmultiplenumbers(numbers):
-    # Debe devolver la suma, no imprimir
     return sum(numbers)
 
 
@@ -13,7 +12,6 @@ def multiplymultiplenumbers(numbers):
 
 
 def isiteven(num):
-    # True si es entero Y par
     if isinstance(num, int) and num % 2 == 0:
         return True
     return False
