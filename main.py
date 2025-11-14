@@ -23,6 +23,10 @@ def isitaninteger(num):
 
 def main():
     print("Hello learners!")
+    addmultiplenumbers([5,9])
+    print(multiplymultiplenumbers([5,9.3]))
+    print(isiteven([5,-7,9.3]))
+    print(isitaninteger([5,-7,9.3]))
 
 
 if __name__ == "__main__":
